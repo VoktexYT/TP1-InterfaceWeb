@@ -1,0 +1,36 @@
+.nav-actif
+{
+    color: #24748f;
+}
+
+.nav-actif:hover
+{
+    color: #24748f;
+}
+
+.nav-nonactif
+{
+    color: #54B4D3;
+}
+
+.nav-nonactif:hover
+{
+    color: #24748f;
+}
+
+#logo-nav
+{
+    cursor: pointer;
+}
+
+.carousel-image {
+    height: 400px;
+    object-fit: cover;
+    width: 100%;
+}
+
+.text-justify
+{
+    text-align: justify;
+}
+
