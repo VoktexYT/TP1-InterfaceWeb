@@ -20,7 +20,7 @@
 
             <ul class="nav nav-pills p-3 col-11 d-flex justify-content-end">
                 <li class="nav-item">
-                    <a class="nav-link nav-actif" href="">Accueil</a>
+                    <a class="nav-link nav-nonactif" href="./index.html">Accueil</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link nav-nonactif" href="">Prendre contact</a>
@@ -29,7 +29,7 @@
                     <a class="nav-link nav-nonactif" href="">Information</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link nav-nonactif" href="">Opinion</a>
+                    <a class="nav-link nav-actif" href="#">Opinion</a>
                 </li>
             </ul>
         </div>
@@ -52,7 +52,7 @@
 
         <div class="col-4 my-4">
             <p class="text-justify" style="font-family: sans-serif;">
-                Bienvenue sur le site web de xSolution! <br><br> Nous sommes ravis de vous accueillir dans notre univers dédié aux solutions informatiques. Chez xSolution, nous nous engageons à fournir des services de haute qualité pour répondre à tous vos besoins en matière de technologie.
+                Quel est votre opinion ? Avoir votre opinion est crucial pour le bien de xSolution. Cela permet de mieux comprendre vos besion!
             </p>
         </div>
     </header>
@@ -60,56 +60,109 @@
     <main class="row">
 
 
-        <section class="col-9 row my-5">
-            <div id="contenu1" class="col-9 text-justify" style="font-family: sans-serif;">
-                <h1>
+        <section class="col-9 row">
+            <div id="contenu1" class="col-9 text-justify d-flex align-items-center row m-0" style="font-family: sans-serif;">
+                <h1 class="col">
                     Quel est votre opinion ?
                 </h1>
+
+                <div class="p-2">
+                    <input type="text" placeholder="Mettre votre nom" id="input-nom" class="form-control">    
+                </div>
+                
+                <div class="p-2">
+                    <input type="text" placeholder="Mettre votre prénom" id="input-prenom" class="form-control">
+                </div>
+                
+                <div class="p-2">
+                    <input type="number" min="0" max="150" placeholder="Mettre l'âge" id="input-age" class="form-control">
+                </div>
+                
+                
+                <div class="p-2">
+                    <select class="form-select text-secondary" name="" id="">
+                        <option selected>Choisir le genre</option>
+                        <option value="F">F</option>
+                        <option value="M">M</option>
+                    </select>
+                </div>
+                
+                
+                <div class="p-2">
+                    <input type="text" placeholder="Mettre une première suggestion" id="input-suggestion1" class="form-control">
+                </div>
+                
+                
+                <div class="p-2">
+                    <input type="text" placeholder="Mettre une deuxième suggestion" id="input-suggestion2" class="form-control">
+                </div>
+                
+                
+                <div class="p-2">
+                    <input type="text" placeholder="Mettre un pays" id="input-pays" class="form-control">
+                </div>
             </div>
 
             <div id="contenu2" class="col-3 text-justify" style="font-family: sans-serif;">
-                <button class="btn btn-primary btn-lg">Enregistrer</button>
+                <button class="btn btn-primary btn-lg col-12 my-3" style="height: 50px;">Enregistrer</button>
+                <button class="btn btn-danger btn-lg col-12 my-2" style="height: 50px;">Annuler</button>
             </div>
 
-            <div id="contenu3" class="col-12 text-justify" style="font-family: sans-serif;">
-                
+            <div id="contenu3" class="col-12 text-justify my-5" style="font-family: sans-serif;">
+                <div class="row m-0 col-12 w-100">
+                    <p class="col-6 border p-2">jsis</p>
+                    <p class="col-6 border p-2">jsis</p>
+                </div>
+
+                <div class="row m-0 col-12 w-100">
+                    <p class="col-6 border p-2">jsis</p>
+                    <p class="col-6 border p-2">jsis</p>
+                </div>
+
+                <div class="row m-0 col-12 w-100">
+                    <p class="col-6 border p-2">jsis</p>
+                    <p class="col-6 border p-2">jsis</p>
+                </div>
+
+                <div class="row m-0 col-12 w-100">
+                    <p class="col-6 border p-2">jsis</p>
+                    <p class="col-6 border p-2">jsis</p>
+                </div>
+
+                <div class="row m-0 col-12 w-100">
+                    <p class="col-6 border p-2">jsis</p>
+                    <p class="col-6 border p-2">jsis</p>
+                </div>
             </div>
         </section>
 
-        <aside class="col-2 bg-dark rounded offset-1 my-5" style="height: 600px">
+        <aside class="m-2 col-3 bg-dark rounded my-0" style="height: 600px">
             <ul style="list-style-type: none; height: 100%;" class="d-flex flex-column justify-content-around text-light">
-                <li>Ordinateur</li>
-                <li>Logiciel</li> 
-                <li>AI</li> 
-                <li>Soutien Informatique</li> 
-                <li>Réseaux</li> 
-                <li>Cybersécurité</li> 
-                <li>Développement Web</li> 
-                <li>Cloud Computing</li> 
-                <li>Maintenance</li> 
-                <li>Base de Données</li>
-                <li>Virtualisation</li> 
-                <li>Consultation</li> 
-                <li>Formation</li> 
-                <li>Support Technique</li>
+                <li>+15% d'augmentation du trafic web</li>
+                <li>+30% de clients satisfaits supplémentaires</li>
+                <li>+10% de fidélisation client</li>
+                <li>+25% d'augmentation des ventes en ligne</li>
+                <li>+12% de réduction des délais de livraison</li>
+                <li>+20% de croissance dans le marché international</li>
+                <li>+7% d'amélioration du service après-vente</li>
             </ul>
         </aside>
     </main>
 
     <footer class="border-top d-flex justify-content-around my-5 py-3">
-        <div class="footer-element text-secondary">
+        <div class="footer-element text-secondary"onclick="alert('Site web crée par Ubert Guertin le 29 novembre 2024')">
             <p>Ubert Guertin &copy; 2024</p>
         </div>
 
-        <div class="footer-element text-secondary">
+        <div class="footer-element text-secondary" onclick="alert('Page indisponible pour le moment')">
             <p>Contact</p>
         </div>
 
-        <div class="footer-element text-secondary">
+        <div class="footer-element text-secondary" onclick="alert('Page indisponible pour le moment')">
             <p>Nouvelles</p>
         </div>
 
-        <div class="footer-element text-secondary">
+        <div class="footer-element text-secondary" onclick="alert('Page indisponible pour le moment')">
             <p>Confidentialité et mensions légales</p>
         </div>
 
