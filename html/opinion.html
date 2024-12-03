@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="../css/bootstrap.css">
     <script src="../javascript/bootstrap.min.js"></script>
     <link rel="stylesheet" href="../css/style.css">
+    <script src="../javascript/jquery.js"></script>
+    <script src="../javascript/script.js"></script>
     <title>Opinion</title>
 </head>
 
@@ -20,16 +22,16 @@
 
             <ul class="nav nav-pills p-3 col-11 d-flex justify-content-end">
                 <li class="nav-item">
-                    <a class="nav-link nav-nonactif" href="./index.html">Accueil</a>
+                    <a class="nav-link nav-actif" href="./index.html">Accueil</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link nav-nonactif" href="">Prendre contact</a>
+                    <a class="nav-link nav-nonactif" href="./equipe.html">Notre Équipe</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link nav-nonactif" href="">Information</a>
+                    <a class="nav-link nav-nonactif" href="./information.html">Information</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link nav-actif" href="#">Opinion</a>
+                    <a class="nav-link nav-nonactif" href="./opinion.html">Opinion</a>
                 </li>
             </ul>
         </div>
@@ -80,8 +82,8 @@
                 
                 
                 <div class="p-2">
-                    <select class="form-select text-secondary" name="" id="">
-                        <option selected>Choisir le genre</option>
+                    <select class="form-select text-secondary" name="" id="select-genre">
+                        <option selected value="defaut">Choisir le genre</option>
                         <option value="F">F</option>
                         <option value="M">M</option>
                     </select>
@@ -104,15 +106,12 @@
             </div>
 
             <div id="contenu2" class="col-3 text-justify" style="font-family: sans-serif;">
-                <button class="btn btn-primary btn-lg col-12 my-3" style="height: 50px;">Enregistrer</button>
-                <button class="btn btn-danger btn-lg col-12 my-2" style="height: 50px;">Annuler</button>
+                <button class="btn btn-primary btn-lg col-12 my-3" style="height: 50px;" id="btn-enregistrer">Enregistrer</button>
+                <button class="btn btn-danger btn-lg col-12 my-2" style="height: 50px;" id="btn-annuler">Annuler</button>
             </div>
 
-            <div id="contenu3" class="col-12 text-justify my-5" style="font-family: sans-serif;">
-                <div class="row m-0 col-12 w-100">
-                    <p class="col-6 border p-2">jsis</p>
-                    <p class="col-6 border p-2">jsis</p>
-                </div>
+            <div id="toutLesSuggestions" class="col-12 text-justify my-5" style="font-family: sans-serif;">
+                
 
                 <div class="row m-0 col-12 w-100">
                     <p class="col-6 border p-2">jsis</p>
