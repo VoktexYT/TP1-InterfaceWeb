@@ -20,9 +20,9 @@
             </div>
             
 
-            <ul class="nav nav-pills p-3 col-11 d-flex justify-content-end">
+            <ul class="nav nav-pills p-3 col-11 d-flex justify-content-lg-end">
                 <li class="nav-item">
-                    <a class="nav-link nav-actif" href="./index.html">Accueil</a>
+                    <a class="nav-link nav-nonactif" href="./index.html">Accueil</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link nav-nonactif" href="./equipe.html">Notre Équipe</a>
@@ -31,12 +31,12 @@
                     <a class="nav-link nav-nonactif" href="./information.html">Information</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link nav-nonactif" href="./opinion.html">Opinion</a>
+                    <a class="nav-link nav-actif" href="./opinion.html">Opinion</a>
                 </li>
             </ul>
         </div>
 
-        <div class="col-8 my-4">
+        <div class="col-8 my-4 d-lg-block d-sm-none">
             <div id="carousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="2000">
                 <div class="carousel-inner">
                   <div class="carousel-item active">
@@ -52,6 +52,8 @@
               </div>
         </div>
 
+        <img class="img-fluid" src="../images/logo2.jpg" alt="">
+
         <div class="col-4 my-4">
             <p class="text-justify" style="font-family: sans-serif;">
                 Quel est votre opinion ? Avoir votre opinion est crucial pour le bien de xSolution. Cela permet de mieux comprendre vos besion!
@@ -62,7 +64,7 @@
     <main class="row">
 
 
-        <section class="col-9 row">
+        <section class="col-lg-9 row col-md-12">
             <div id="contenu1" class="col-9 text-justify d-flex align-items-center row m-0" style="font-family: sans-serif;">
                 <h1 class="col">
                     Quel est votre opinion ?
@@ -110,40 +112,18 @@
                 <button class="btn btn-danger btn-lg col-12 my-2" style="height: 50px;" id="btn-annuler">Annuler</button>
             </div>
 
-            <div id="toutLesSuggestions" class="col-12 text-justify my-5" style="font-family: sans-serif;">
-                
-
-                <div class="row m-0 col-12 w-100">
-                    <p class="col-6 border p-2">jsis</p>
-                    <p class="col-6 border p-2">jsis</p>
-                </div>
-
-                <div class="row m-0 col-12 w-100">
-                    <p class="col-6 border p-2">jsis</p>
-                    <p class="col-6 border p-2">jsis</p>
-                </div>
-
-                <div class="row m-0 col-12 w-100">
-                    <p class="col-6 border p-2">jsis</p>
-                    <p class="col-6 border p-2">jsis</p>
-                </div>
-
-                <div class="row m-0 col-12 w-100">
-                    <p class="col-6 border p-2">jsis</p>
-                    <p class="col-6 border p-2">jsis</p>
-                </div>
-            </div>
+            <div id="toutLesSuggestions" class="col-12 text-justify my-5" style="font-family: sans-serif;"></div>
         </section>
 
-        <aside class="m-2 col-3 bg-dark rounded my-0" style="height: 600px">
+        <aside class="m-2 col-lg-3 bg-dark rounded my-0" style="height: fit-content">
             <ul style="list-style-type: none; height: 100%;" class="d-flex flex-column justify-content-around text-light">
-                <li>+15% d'augmentation du trafic web</li>
-                <li>+30% de clients satisfaits supplémentaires</li>
-                <li>+10% de fidélisation client</li>
-                <li>+25% d'augmentation des ventes en ligne</li>
-                <li>+12% de réduction des délais de livraison</li>
-                <li>+20% de croissance dans le marché international</li>
-                <li>+7% d'amélioration du service après-vente</li>
+                <li class="text-md-center text-lg-start">+15% d'augmentation du trafic web</li>
+                <li class="text-md-center text-lg-start mt-3">+30% de clients satisfaits supplémentaires</li>
+                <li class="text-md-center text-lg-start mt-3">+10% de fidélisation client</li>
+                <li class="text-md-center text-lg-start mt-3">+25% d'augmentation des ventes en ligne</li>
+                <li class="text-md-center text-lg-start mt-3">+12% de réduction des délais de livraison</li>
+                <li class="text-md-center text-lg-start mt-3">+20% de croissance dans le marché international</li>
+                <li class="text-md-center text-lg-start mt-3">+7% d'amélioration du service après-vente</li>
             </ul>
         </aside>
     </main>

@@ -67,3 +67,10 @@ aside ul
 {
     width: 400px;
 }
+
+#listeElement1 li
+{
+    padding: 0;
+    margin: 5px;
+    text-align: center;
+}
