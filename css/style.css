@@ -1,76 +1,95 @@
-body
-{
-    background-color: #f8f9fa;
+body {
+    background-color: #f8f9fa; 
+    /* Définit une couleur de fond claire pour le corps de la page */
 }
 
-.nav-actif
-{
-    color: #24748f;
+a:hover {
+    color: rgb(4, 31, 4); 
+    /* Change la couleur du texte des liens lorsqu'on survole avec la souris */
+    background-color: rgb(43, 255, 0); 
+    /* Ajoute un arrière-plan vert vif au survol */
 }
 
-.nav-actif:hover
-{
-    color: #24748f;
+a:focus {
+    background-color: magenta; 
+    /* Définit une couleur de fond magenta lorsqu'un lien est sélectionné au clavier */
 }
 
-.nav-nonactif
-{
-    color: #54B4D3;
+.nav-actif {
+    color: #24748f; 
+    /* Couleur de texte pour les éléments de navigation actifs */
 }
 
-.nav-nonactif:hover
-{
-    color: #24748f;
+.nav-actif:hover {
+    color: #24748f; 
+    /* Conserve la même couleur au survol des éléments actifs */
 }
 
-#logo-nav
-{
-    cursor: pointer;
+.nav-nonactif {
+    color: #54B4D3; 
+    /* Couleur de texte pour les éléments de navigation non actifs */
+}
+
+.nav-nonactif:hover {
+    color: #24748f; 
+    /* Change la couleur des éléments non actifs au survol */
+}
+
+#logo-nav {
+    cursor: pointer; 
+    /* Change le curseur en pointeur (main) pour indiquer que l'élément est cliquable */
 }
 
 .carousel-image {
-    height: 200px;
-    object-fit: cover;
-    width: 100%;
+    height: 200px; 
+    /* Fixe la hauteur des images dans le carrousel */
+    object-fit: cover; 
+    /* Ajuste l'image pour qu'elle remplisse le conteneur sans déformation */
+    width: 100%; 
+    /* Définit la largeur à 100% pour qu'elle s'adapte au conteneur */
 }
 
-.text-justify
-{
-    text-align: justify;
+.text-justify {
+    text-align: justify; 
+    /* Justifie le texte pour aligner les deux côtés du contenu */
 }
 
-.footer-element:hover
-{
-    cursor: pointer;
-    text-decoration:underline;
+.footer-element:hover {
+    cursor: pointer; 
+    /* Change le curseur pour indiquer que l'élément est interactif */
+    text-decoration: underline; 
+    /* Souligne le texte au survol pour attirer l'attention */
 }
 
-aside ul li
-{
-    cursor: pointer;
-    padding-left: 20px;
-    transition: 0.2s;
+aside ul li {
+    cursor: pointer; 
+    /* Indique que les éléments de la liste sont cliquables */
+    padding-left: 20px; 
+    /* Ajoute un espacement sur la gauche pour les éléments de liste */
+    transition: 0.2s; 
+    /* Ajoute une transition pour les changements visuels */
 }
 
-aside ul li:hover
-{
-    background-color: #0d6efd;
+aside ul li:hover {
+    background-color: #0d6efd; 
+    /* Change la couleur d'arrière-plan des éléments de liste au survol */
 }
 
-aside ul
-{
-    padding-left: 5px;
+aside ul {
+    padding-left: 5px; 
+    /* Ajoute un léger espacement sur la gauche de la liste */
 }
 
-
-#contenu3 div
-{
-    width: 400px;
+#contenu3 div {
+    width: 400px; 
+    /* Définit une largeur fixe pour les div enfants de #contenu3 */
 }
 
-#listeElement1 li
-{
-    padding: 0;
-    margin: 5px;
-    text-align: center;
+#listeElement1 li {
+    padding: 0; 
+    /* Supprime le padding interne des éléments de la liste */
+    margin: 5px; 
+    /* Ajoute un espacement entre les éléments de la liste */
+    text-align: center; 
+    /* Centre le texte des éléments de la liste */
 }
